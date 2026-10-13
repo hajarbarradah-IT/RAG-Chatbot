@@ -1,0 +1,12 @@
+NovaUI est un framework frontend fictif développé exclusivement pour le projet
+Novatek.
+
+NovaUI repose sur une architecture basée sur des Modules Nova et des Composants Nova.
+Chaque Module Nova regroupe plusieurs Composants Nova et définit leur visibilité.
+
+Un Composant Nova est constitué de trois éléments obligatoires : un fichier NHTML
+(Nova HyperText Markup Language), une feuille de style NCS (Nova Cascading Style), et
+une classe TypeNova.
+
+NovaUI n’est pas compatible avec Angular, React ou Vue.js. Il s’agit d’un framework
+totalement indépendant conçu pour des besoins internes spécifiques.

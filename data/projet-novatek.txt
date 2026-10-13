@@ -1,0 +1,18 @@
+Novatek est un projet fictif interne utilisé pour former les développeurs juniors
+dans l’entreprise TechNova.
+
+Le projet Novatek consiste à développer une application web de gestion des ressources
+internes. Cette application permet de gérer les employés, les projets, les horaires
+et les rapports d’activité.
+
+Dans Novatek, chaque employé est identifié par un code unique appelé Identifiant
+Novatek (INOV). Cet identifiant est obligatoire pour toute opération liée à un
+employé.
+
+L’architecture du projet Novatek repose sur une séparation claire entre le frontend
+et le backend. Le frontend est développé avec un framework SPA interne appelé NovaUI,
+tandis que le backend repose sur une API REST sécurisée.
+
+Le projet Novatek utilise un système de rôles spécifiques : Administrateur Novatek,
+Gestionnaire Novatek et Utilisateur Novatek. Chaque rôle dispose de permissions
+strictement définies.

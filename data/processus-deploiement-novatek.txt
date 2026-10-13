@@ -1,0 +1,11 @@
+Le déploiement de l’application Novatek suit un processus strict.
+
+Avant tout déploiement, une phase de validation interne est réalisée par un
+Gestionnaire Novatek.
+
+Une fois validée, l’application est déployée sur l’environnement appelé NovaStage.
+Après une période d’observation, le déploiement en production est effectué sur
+l’environnement NovaProd.
+
+Tout incident survenant en production doit être référencé par un Ticket NTK et analysé
+dans un rapport de post-déploiement.

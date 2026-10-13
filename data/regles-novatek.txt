@@ -1,0 +1,13 @@
+Le projet Novatek impose des règles strictes de développement.
+
+Toute fonctionnalité doit être associée à un numéro de tâche Novatek, appelé Ticket
+NTK.
+
+Les tickets NTK suivent le format suivant : NTK-AAAA-NNN, où AAAA correspond à l’année
+et NNN à un numéro séquentiel.
+
+Aucune fonctionnalité ne peut être déployée sans validation par un Administrateur
+Novatek.
+
+Les logs générés par l’application Novatek doivent obligatoirement inclure
+l’Identifiant Novatek (INOV) de l’utilisateur concerné.

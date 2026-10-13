@@ -1,0 +1,9 @@
+INOV : Identifiant unique attribué à chaque employé dans le projet Novatek.
+
+NovaUI : Framework frontend interne utilisé dans le projet Novatek.
+
+Module Nova : Élément structurel de NovaUI permettant d’organiser les composants.
+
+Composant Nova : Unité de base de l’interface utilisateur dans NovaUI.
+
+Ticket NTK : Identifiant obligatoire associé à toute tâche du projet Novatek.

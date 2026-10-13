@@ -1,0 +1,109 @@
+/* RESET + FONT */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* PAGE BACKGROUND */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #000000, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN CONTAINER */
+.chat-container {
+    width: 420px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* HEADER */
+.chat-header {
+    background: linear-gradient(135deg, #ff6fd8, #6a11cb);
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* CHAT BOX */
+#chat-box {
+    height: 350px;
+    padding: 15px;
+    background: #f4f6fb;
+    overflow-y: auto;
+}
+
+/* MESSAGE COMMON */
+.user-msg,
+.bot-msg {
+    max-width: 75%;
+    padding: 12px 16px;
+    margin: 8px 0;
+    border-radius: 18px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* USER MESSAGE */
+.user-msg {
+    background: linear-gradient(135deg, #2575fc,  #6a11cb);
+    color: white;
+    margin-left: auto;
+    border-bottom-right-radius: 4px;
+}
+
+/* BOT MESSAGE */
+.bot-msg {
+    background: #ffffff;
+    color: #333;
+    margin-right: auto;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* INPUT AREA */
+.chat-input {
+    display: flex;
+    padding: 12px;
+    border-top: 1px solid #eee;
+    background: #fff;
+}
+
+/* INPUT */
+#user-input {
+    flex: 1;
+    padding: 10px 14px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+}
+
+/* BUTTON */
+#send-btn {
+    margin-left: 10px;
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(135deg, #ff6fd8, #6a11cb);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#send-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}

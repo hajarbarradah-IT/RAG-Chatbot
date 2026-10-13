@@ -1,0 +1,29 @@
+Le développement web désigne l’ensemble des activités liées à la création et à la
+maintenance de sites et d’applications accessibles via un navigateur web.
+
+Il repose principalement sur trois technologies fondamentales : HTML, CSS et
+JavaScript. HTML permet de structurer le contenu d’une page web, CSS est utilisé pour
+définir la présentation visuelle et JavaScript permet d’ajouter de l’interactivité et
+des comportements dynamiques.
+
+Le développement web se divise généralement en deux grandes catégories : le
+développement frontend et le développement backend. Le frontend concerne la partie
+visible de l’application avec laquelle l’utilisateur interagit directement, tandis
+que le backend gère la logique métier, les bases de données et la communication avec
+les serveurs.
+
+Les frameworks et bibliothèques jouent un rôle essentiel dans le développement web
+moderne. Ils fournissent des structures et des outils facilitant la création
+d’applications complexes, améliorant la productivité des développeurs et la
+maintenabilité du code. Parmi les frameworks frontend populaires, on retrouve Angular,
+React et Vue.js.
+
+La notion d’application web de type SPA (Single Page Application) est devenue courante.
+Dans ce modèle, une seule page HTML est chargée initialement, puis le contenu est mis à
+jour dynamiquement sans rechargement complet de la page. Cela permet une expérience
+utilisateur plus fluide et plus proche des applications natives.
+
+Enfin, le développement web est un domaine en constante évolution. Les technologies,
+les bonnes pratiques et les outils changent régulièrement, ce qui impose aux
+développeurs de se former en continu afin de rester à jour et de concevoir des
+applications performantes, sécurisées et accessibles.
